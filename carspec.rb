@@ -12,6 +12,4 @@ describe Car do
     expect(car.range).to eq 200
 
   end
-
-
 end

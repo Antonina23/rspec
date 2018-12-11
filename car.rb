@@ -1,5 +1,6 @@
 class Car
-  miles_per_gallon = 20
+  # если написать это маленькими буквами - def range не будет считаться - будет писать - строка не может быть умножена на число
+  MILES_PER_GALLON = 20
 
   attr_reader :fuel
 
@@ -13,7 +14,7 @@ class Car
 
 # как далеко мы сможем проехать:
   def range
-    0
+    @fuel * MILES_PER_GALLON
   end
 end
 
